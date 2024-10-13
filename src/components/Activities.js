@@ -18,7 +18,7 @@ export const Activities = () => {
       >
         <img
           className={styles.icon}
-          src="/assets/actions/left-arrow.png"
+          src={`${process.env.PUBLIC_URL}/assets/actions/left-arrow.png`}
           alt=""
         />
       </button>
@@ -38,7 +38,7 @@ export const Activities = () => {
       >
         <img
           className={styles.icon}
-          src="/assets/actions/right-arrow.png"
+          src={`${process.env.PUBLIC_URL}/assets/actions/right-arrow.png`}
           alt=""
         />
       </button>

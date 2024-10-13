@@ -64,7 +64,7 @@ export const Contacts = () => {
             required
           />
           <button className={styles.send} type="submit">
-            <img className={styles.icon} src="/assets/actions/send.png" alt="Send" />
+            <img className={styles.icon} src={`${process.env.PUBLIC_URL}/assets/actions/send.png`} alt="Send" />
           </button>
         </div>
       </form>

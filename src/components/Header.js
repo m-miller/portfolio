@@ -26,7 +26,7 @@ export const Header = () => {
   return (
     <header className={styles.wrapper}>
       <div className={styles.brand}>
-        <img className={styles.icon} src="/assets/me.png" alt="profile" />
+        <img className={styles.icon} src={`${process.env.PUBLIC_URL}/assets/me.png`} alt="profile" />
         <h1 className={styles.logo}>Portfolio</h1>
       </div>
       {!mobileNavigation && isMobile ? (
@@ -36,7 +36,7 @@ export const Header = () => {
             setMobileNavigation(true);
             document.body.style.overflow = "hidden";
           }}
-          src="/assets/actions/hamburger.png"
+          src={`${process.env.PUBLIC_URL}/assets/actions/hamburger.png`}
           alt="menu"
         />
       ) : (
