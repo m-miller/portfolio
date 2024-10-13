@@ -55,7 +55,7 @@
   
     .navigation {
       display: grid;
-      gap: 0px;
+      gap: 15px;
       position: absolute;
       top: 0;
       left: 0;
@@ -63,6 +63,7 @@
       font-weight: bold;
       height: 100vh;
       background-color: #efeff1;
+      align-content: start;
     }
   
     .item {
