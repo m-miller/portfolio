@@ -9,14 +9,14 @@ export const Footer = () => {
       <div className={styles.socials}>
         <a href="https://www.linkedin.com/in/milleronic/">
         <img
-          src="/assets/socials/linkedin.png"
+          src={`${process.env.PUBLIC_URL}/assets/socials/linkedin.png`}
           alt="social-icon"
           className={styles.icon}
         />
         </a>
         <a href="https://github.com/m-miller">
         <img
-          src="/assets/socials/github.png"
+          src={`${process.env.PUBLIC_URL}/assets/socials/github.png`}
           alt="social-icon"
           className={styles.icon}
         />
